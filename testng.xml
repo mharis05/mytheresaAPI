@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Github Search Repositories Simple API Tests" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="com.mytheresa.challenge.utils.listners.TestListener"/>
+    </listeners>
+    <test name="Search Repositories API Test: RestAssured API">
+        <classes>
+            <class name="com.mytheresa.challenge.tests.SearchRepositoriesTest"/>
+        </classes>
+    </test>
+    <test name="Search Repositories API Test: JSON (De) Serialization">
+        <classes>
+            <class name="com.mytheresa.challenge.tests.CustomQueryTest"/>
+        </classes>
+
+    </test>
+</suite>
