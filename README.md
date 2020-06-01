@@ -9,9 +9,14 @@ Simple API Tests for Github search/repositories endpoint using Java, RestAssured
 - Jackson (For deserialization - Demo purposes)
 
 ## How to run
+### From Command Line
 1. Clone this repository
 2. Open a terminal window and cd to project root 
 3. Run `mvn clean test`
+
+### From an IDE
+1. Open the project and wait for dependencies for resolve
+2. Locate file `testng.xml` on project root, right click and select Run
 
 ### Tests
 #### - Validate that status code to search/repositories endpoint is 200
