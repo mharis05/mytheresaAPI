@@ -21,7 +21,7 @@ public class CustomQueryTest extends BaseTest {
      * @param queryParams Query parameters
      * @param customData Expected data in form of a Hashmap
      */
-    @Test(description = "Custom Query for Demonstration of JSON Deserialization.",
+    @Test(description = "Validate that correct values for Repository information are returned.",
             dataProviderClass = TestData.class,
             dataProvider = "custom-data-provider")
 
